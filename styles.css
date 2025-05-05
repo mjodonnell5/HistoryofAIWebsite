@@ -91,22 +91,32 @@ button:hover {
 }
 
 #timeline h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;  /* Larger font size for the title */
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;  /* Increased spacing below the title */
 }
 
 #timeline ul {
     list-style-type: none;
     padding: 0;
-    max-width: 800px;
+    max-width: 1000px;  /* Increased max-width for more space */
     margin: 0 auto;
 }
 
 #timeline li {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    font-size: 1.4rem;  /* Slightly larger font size for better readability */
+    margin-bottom: 1.5rem;  /* Increased spacing between items for clarity */
+    border-bottom: 1px solid #ddd;  /* Adds a subtle border between items */
+    padding-bottom: 1rem;  /* Padding below each item */
 }
+
+#timeline li::before {
+    content: "\2022";  /* Adds a bullet point before each year */
+    font-size: 2rem;
+    color: #333;
+    margin-right: 10px;
+}
+
 
 /* Call to Action */
 #cta {
