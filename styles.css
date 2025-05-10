@@ -134,6 +134,45 @@ section p {
     background-color: #1f6d99;
 }
 
+/* Works Cited Section */
+#works-cited {
+    background-color: #fff;
+    padding: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#works-cited h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#works-cited ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#works-cited li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+#works-cited li a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#works-cited li a:hover {
+    text-decoration: underline;
+}
+
+#works-cited p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 /* Footer styles */
 footer {
     background-color: #2c3e50;
